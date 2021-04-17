@@ -3626,7 +3626,7 @@ int wildcmp(const char *str, const char *wild, bool caseSensitive) {
 }
 
 //// C string hash function (djb2) - taken from
-///http://www.cse.yorku.ca/~oz/hash.html
+/// http://www.cse.yorku.ca/~oz/hash.html
 // unsigned hashStr(unsigned const char* str) {
 //    unsigned long hash = 5381;
 //    char          c;
